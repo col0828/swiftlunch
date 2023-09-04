@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "/api/index",
+      "src": "app.py",
       "use": "@app/python",
       "config": {
         "maxLambdaSize": "15mb"
@@ -15,7 +15,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/api/index"
+      "dest": "app.py"
     }
   ]
 }
