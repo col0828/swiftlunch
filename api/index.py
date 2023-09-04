@@ -45,6 +45,5 @@ def meal3_api():
         return jsonify(result)
 
 
-@app.route("/about")
-def about():
-    return "About"
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0")
