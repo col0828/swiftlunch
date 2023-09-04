@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "app.py",
-      "use": "@app/python",
+      "use": "@now/python",
       "config": {
         "maxLambdaSize": "15mb"
       }
