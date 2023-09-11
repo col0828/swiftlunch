@@ -11,4 +11,6 @@ venv/
 ENV/ 
 env.bak/ 
 ven/
-venv.bak/ 
+venv.bak/
+.ven
+api/ven/
