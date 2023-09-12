@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return render_template("index.html")
+    return render_template("main.html")
 
 
 @app.route("/meal1-api", methods=["GET", "POST"])
