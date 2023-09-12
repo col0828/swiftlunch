@@ -45,6 +45,6 @@ def meal3_api():
         return jsonify(result)
 
 
-@app.route("/about")
+@app.route('/about')
 def about():
-    return "About"
+    return 'About'
