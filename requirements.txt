@@ -23,4 +23,4 @@ rich==13.5.2
 soupsieve==2.4.1
 urllib3==2.0.4
 Werkzeug==2.3.7
-zope.interface==6.0
+zope.interface>=6.0
