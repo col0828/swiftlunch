@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from tkinter import *
 
 
 def meal1():
