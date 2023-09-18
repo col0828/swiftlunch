@@ -1,7 +1,7 @@
 from flask import Flask, render_template, jsonify, request
 import requests
 from bs4 import BeautifulSoup
-from Tkinter import *
+from tkinter import *
 
 
 def meal1():
